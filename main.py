@@ -1,8 +1,7 @@
 import os.path
 
-from qrcodegenerator import create_qr_code_image
+from qrcodegen import create_qr_code_image
 from config import Config
-
 
 def main():
     full_path = os.getcwd()

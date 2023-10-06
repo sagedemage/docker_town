@@ -1,4 +1,4 @@
-FROM python:3.12.0a1-buster
+FROM python:3.12.0-bookworm
 RUN apt-get update &&\ 
     adduser myuser
 ENV QR_CODE_IMAGE_DIRECTORY='static'
